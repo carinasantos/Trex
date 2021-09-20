@@ -39,7 +39,7 @@ function preload(){
 
 function setup() {
   // add os comando windowWidth e o windowHeight 
-  createCanvas(width,height);
+  createCanvas(windowWidth,windowHeight);
   
   sun = createSprite(width-50,100,10,10);
   sun.addAnimation("sun", sunAnimation);
